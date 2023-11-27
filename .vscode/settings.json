@@ -1,0 +1,7 @@
+{
+    "objectscript.conn": {
+        "server": "workshop-iris",
+        "ns": "WHATSAPP",
+        "active": true
+    }
+}

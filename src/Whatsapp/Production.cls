@@ -14,8 +14,8 @@ XData ProductionDefinition
   </Item>
   <Item Name="Whatsapp_Message_Out" Category="" ClassName="Whatsapp.BO.WhatsAppBO" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="true" Schedule="">
     <Setting Target="Adapter" Name="HTTPServer">graph.facebook.com</Setting>
-    <Setting Target="Host" Name="PhoneNumberId">154600987744279</Setting>
-    <Setting Target="Host" Name="Token">EAAO8Yhef4D4BO4KMV9ZCG9w9ZBZBCbihzey2msIDuLOxiBsWYGCFisxmiJDJjDWzq3jDcddMk0rTQl9nzKP7B1fWd9Mj3ZB0ZByaKtV6SriNf9EnAqbb3tIUanIiZAQgjnr0qDs14fE77lf6YSGguZB3VlyzbHk0wBsYyZAKWfdjK0sDHchqeof8FuRiujvI1yq6v94br2JgfxsaTFBUNCLpmftfZCZBIZD</Setting>
+    <Setting Target="Host" Name="PhoneNumberId"></Setting>
+    <Setting Target="Host" Name="Token"></Setting>
     <Setting Target="Host" Name="Version">v17.0</Setting>
     <Setting Target="Adapter" Name="SSLCheckServerIdentity">1</Setting>
     <Setting Target="Host" Name="ArchiveIO">1</Setting>

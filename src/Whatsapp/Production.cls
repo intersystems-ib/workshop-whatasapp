@@ -9,7 +9,7 @@ XData ProductionDefinition
   <Item Name="HL7_File_In" Category="" ClassName="EnsLib.HL7.Service.FileService" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
     <Setting Target="Host" Name="MessageSchemaCategory">2.5.1</Setting>
     <Setting Target="Adapter" Name="FilePath">/shared/HL7In/</Setting>
-    <Setting Target="Adapter" Name="FileSpec">*</Setting>
+    <Setting Target="Adapter" Name="FileSpec">*.hl7</Setting>
     <Setting Target="Host" Name="TargetConfigNames">From_HL7_To_Message</Setting>
   </Item>
   <Item Name="Whatsapp_Message_Out" Category="" ClassName="Whatsapp.BO.WhatsAppBO" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="true" Schedule="">

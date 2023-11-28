@@ -2,7 +2,7 @@
 <Export generator="Cache" version="25">
   <Document name="workshop-whatsapp.ZPM">
     <Module>
-      <Name>workshp-whatsapp</Name>
+      <Name>workshop-whatsapp</Name>
       <Version>1.0.0</Version>
       <Description>Connection to WhatsApp API</Description>
       <Keywords>whatsapp,api,example</Keywords>

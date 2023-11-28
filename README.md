@@ -1,4 +1,4 @@
-# workshop-firebase
+# workshop-whatsapp
 
 Example of connectivity between InterSystems IRIS for Health and WhatsApp Endpoint.
 

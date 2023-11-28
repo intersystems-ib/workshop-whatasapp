@@ -56,3 +56,4 @@ $ docker-compose up -d
 # Attention!
 
 * To run this project you need a Meta account and a project created with WhatsApp capabilities in order to receive POST calls from our InterSystems IRIS for Health production.
+* Check [this article](https://community.intersystems.com/post/sending-whatsapp-messages-intersystems-iris-production) from the Developer Community.

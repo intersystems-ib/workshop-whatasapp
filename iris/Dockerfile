@@ -27,5 +27,4 @@ set sc = $SYSTEM.OBJ.LoadDir("/opt/irisapp/src/Whatsapp", "ck", , 1) \
 set production = "Whatsapp.Production" \
 set ^Ens.Configuration("csp","LastProduction") = production \
 do ##class(Ens.Director).SetAutoStart(production) \
-do ##class(%Net.HttpRequest).%New(),r.Server="default",r.SSLConfiguration="ISC.FeatureTracker.SSL.Config" \
 set sc = 1 \

@@ -19,7 +19,7 @@ XData ProductionDefinition
     <Setting Target="Host" Name="Version">v17.0</Setting>
     <Setting Target="Adapter" Name="SSLCheckServerIdentity">1</Setting>
     <Setting Target="Host" Name="ArchiveIO">1</Setting>
-    <Setting Target="Adapter" Name="SSLConfig">default</Setting>
+    <Setting Target="Adapter" Name="SSLConfig">ISC.FeatureTracker.SSL.Config</Setting>
     <Setting Target="Adapter" Name="URL"></Setting>
     <Setting Target="Adapter" Name="HTTPPort"></Setting>
   </Item>

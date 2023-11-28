@@ -46,8 +46,8 @@ $ docker-compose up -d
 
 * A production with:
     * A Business Service configured and ready to read HL7 files from /shared/HL7In folder (HL7_File_In).
-    * A Business Process which will get all the required info from the HL7 message by a Data Transformation and send it to the specific Business Operation.
-    * A Business Operation configured with the following custom parameters:
+    * A Business Process which will get all the required info from the HL7 message by a Data Transformation and send it to the specific Business Operation (From_HL7_To_Message).
+    * A Business Operation configured with the following custom parameters (Whatsapp_Message_Out):
         * Version: version of the API used.
         * PhoneNumberId: identifier of the phone number used as sender.
         * Token: authorization token for the HTTP Post call.
@@ -55,5 +55,4 @@ $ docker-compose up -d
 
 # Attention!
 
-* To run this project you need a Meta account and a project created with WhatsApp capabilities in order to receive POST calls from our InterSystems IRIS for Health.
-* Check [this article](https://community.intersystems.com/post/connecting-intersystems-iris-and-firebase-cloud-firestore) from the developer community
+* To run this project you need a Meta account and a project created with WhatsApp capabilities in order to receive POST calls from our InterSystems IRIS for Health production.
